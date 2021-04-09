@@ -1,0 +1,41 @@
+body {
+  background-color: white;
+}
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  gap: 12px;
+  background-color: gray;
+}
+
+.square {
+  width: 120px;
+  height: 120px;
+
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.x {
+  font-size: 80px;
+  color: red;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+.o {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 80px;
+  color: yellow;
+  text-align: center;
+}
